@@ -1,5 +1,5 @@
-const stringLength = require('./index');
+const reverseString = require('./index')
 
-test('length of string', () => {
-    expect(stringLength('')).toBe(0)
+test('reversed string', () => {
+    expect(reverseString('break')).toBe('kaerb')
 })
