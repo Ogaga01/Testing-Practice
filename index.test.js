@@ -1,5 +1,5 @@
 const stringLength = require('./index');
 
 test('length of string', () => {
-    expect(stringLength('breakfast')).toBe(9)
+    expect(stringLength('')).toBe(0)
 })
