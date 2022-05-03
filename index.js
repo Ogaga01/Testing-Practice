@@ -1,20 +1,8 @@
-const Calculator = {
-    constructor(a,b)
-    {this.a = a;
-    this.b = b;
-},
- addition(a,b){
-    return a + b;
-},
-subtraction(a,b){
-    return a - b;
-},
-multiplication(a,b){
-    return a * b;
-},
-division(a,b){
-    return a/b;
-}
+function capitalised(string){
+    let lowerCase = string.toLowerCase();
+    let firstLetter = lowerCase.slice(0,1);
+    let capital = lowerCase.replace(firstLetter, firstLetter.toUpperCase());
+    return capital;
 }
 
-module.exports = Calculator;
+module.exports = capitalised
